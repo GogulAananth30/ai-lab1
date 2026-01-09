@@ -163,7 +163,7 @@ else:
 print("\n--- DFS Path ---")
 visualize_maze(maze, dfs_path, "Maze Path (DFS)")
 if dfs_path:
-    print(f"DFS Path Length: {len(dfs_path)}")
+    print(f"DFS Path Length: {len(dfs_path)}")  
 else:
     print("DFS: No path found.")
 
